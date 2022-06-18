@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('git push') {
+        stage('git pushed') {
             steps {
                git branch: 'main', url: 'https://github.com/akale9888/akash.git'
             }
